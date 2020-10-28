@@ -1,0 +1,25 @@
+:root{
+  --mainColor: #000000;
+  --bgColor: #FFFFFF;
+  --accentColor: #ed6464;
+  --pageWidth: 50vw;
+}
+html{
+  font-size: 0.5vh;
+}
+body{
+  overflow: hidden;
+}
+#slide{
+  overflow: hidden;
+  background-color: var(--bgColor);
+}
+.page{
+  width: 50vw;
+  height: 50vh;
+  display: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+  font-family: 'M PLUS 1p', sans-serif;
+}

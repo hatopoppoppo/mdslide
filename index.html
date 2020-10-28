@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja" id="html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>スライド 制作</title>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="code/style.css">
+  <link rel="stylesheet" href="code/designTop.css">
+  <link rel="stylesheet" href="code/designPattern/design1.css">
+</head>
+<body>
+  <div id="slide"></div>
+    <textarea name="" id="mdtext" cols="30" rows="10"></textarea>
+  <div id="config">
+    <div class="color" id="mainColor">
+      <p>文字色</p>
+      <input id="mainColor-input" type="text">
+    </div>
+    <div class="color" id="acColor">
+      <p>強調色</p>
+      <input id="acColor-input" type="text">
+    </div>
+    <div class="color" id="bgColor">
+      <p>背景色</p>
+      <input id="bgColor-input" type="text">
+    </div>
+    <div id="designColumn">
+      <div class="designPattern" data-desNum="1"></div>
+      <div class="designPattern" data-desNum="2"></div>
+      <div class="designPattern" data-desNum="3"></div>
+      <div class="designPattern" data-desNum="4"></div>
+      <div class="designPattern" data-desNum="5"></div>
+      <div class="designPattern" data-desNum="6"></div>
+    </div>
+    <div id="fullScreen"></div>
+  </div>
+  <script src="code/js/convert.js"></script>
+  <script src="code/js/design.js"></script>
+  <script src="code/js/slide.js"></script>
+</body>
+</html>
